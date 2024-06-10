@@ -1,4 +1,7 @@
 
+# Distribución de cuadros en el escenario
+
+![alt text](DistribucionQR.png)
 
 # Ubicaciones de los puntos de parada
 
@@ -52,7 +55,7 @@
 # Ubicaciones de los posibles obstaculos
 Tomando como origen de coordenadas la esquina inferior izquierda las coordenadas de los obstaculos son las siguientes:
 
-| Punto | X | Y |
+| Obstaculo | X | Y |
 | :--: |:----:|:----:|
 | O1 | 2,00 | 5,50 |
 | O2 | 3,50 | 4,50 |
