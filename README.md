@@ -1,7 +1,7 @@
 
 # Distribución de cuadros en el escenario
 
-![alt text](DistribucionQR.png)
+![alt text](img/DistribucionQR.png)
 
 # Ubicaciones de los puntos de parada
 
