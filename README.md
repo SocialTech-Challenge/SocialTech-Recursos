@@ -1,9 +1,11 @@
 
-# Distribución de cuadros en el escenario
+## Distribución de cuadros en el escenario
 
 ![alt text](img/DistribucionQR.png)
 
-# Ubicaciones de los puntos de parada
+## Ubicaciones de los puntos de parada
+
+En la siguiente tabla se pueden consultar los posibles puntos de parada para la visita del museo. El origen de coordenadas respecto al plano se encuentran en la esquina inferior izquierda. Las coordenadas estan en metros, siendo el eje X el de abscisas y el eje Y el de ordenadas.
 
 | Cuadro |	x |	y |	Orientación |
 |:------:|:--:|:-:|:-----------:|
@@ -27,7 +29,9 @@
 | C17 |	2.5 |	1,0 |	S |
 | C18 |	6,5 |	1,0	| S |
 
-# Ubicaciones de los QR
+## Ubicaciones de los QR
+
+En la siguiente tabla se pueden consultar las ubicaciones de los QR asociados a cada cuadro. El origen de coordenadas respecto al plano se encuentran en la esquina inferior izquierda. Las coordenadas estan en metros, siendo el eje X el de abscisas y el eje Y el de ordenadas.
 
 | QR |	x |	y |	z |
 |:---:|:---:|:----: |:---:|
@@ -71,3 +75,26 @@ Tomando como origen de coordenadas la esquina inferior izquierda las coordenadas
 Como se pueden ver en la siguiente imagen.
 
 ![alt text](img/obstaculos.png)
+
+# FAQ
+
+## ¿Cuando se entregarán los posibles coordenadas y orientaciones para los waypoints?
+
+Los posibles puntos en los que la silla debe detenerse ya están disponibles. La visita al museo siempre comenzará y finalizará en las coordenadas del cuadro C0, permitiéndose a cada equipo iniciar y terminar con la orientación que prefiera.
+
+## ¿Cuando se considerará como valido el paso por un waypoint?
+
+Para que un waypoint sea considerado válido, la base del robot debe cubrir completamente un círculo de 30 cm ubicado en las coordenadas proporcionadas por la organización. Además, la orientación será válida si un haz láser proyectado desde la base del robot está contenido dentro de las marcas que delimitan el cuadro hacia el cual debe estar orientada la silla.
+
+## ¿Debe haber alguien en la silla durante las pruebas?
+
+Sí. Durante las pruebas, un integrante del equipo deberá estar sentado en la silla, pero no podrá interactuar con ella; el recorrido debe realizarlo la silla de forma autónoma. El peso que desplace la silla debe ser de al menos 80 kg. Si el piloto de la silla no alcanza este peso, deberá usar lastre hasta llegar, como mínimo, a dicha cifra.
+
+## ¿Cuando se sabran los puntos que conforman el recorrido a implementar en las pruebas?
+
+El miércoles 19 al mediodía se publicarán los puntos que conforman el recorrido a implementar. Esto permitirá que el miércoles por la tarde se puedan realizar pruebas utilizando dichas coordenadas antes de las pruebas calificables del jueves 20. El recorrido se deberá realizar en el mismo orden que proporcione la organización.
+
+## ¿Cuanto tiempo se dispone para cada prueba?
+
+El tiempo para realizar cada prueba dependerá del recorrido final. Este tiempo se estimará en base a una velocidad de 0.5 m/s, más 5 segundos de parada en cada waypoint. Por lo tanto, se calculará la distancia total del recorrido en base a los waypoints de la ruta, y con esta distancia se determinará el tiempo necesario para completarlo. Cualquier tiempo que exceda el estimado supondrá una penalización, tal como se indica en las bases de la competición.
+
